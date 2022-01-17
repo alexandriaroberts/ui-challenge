@@ -103,6 +103,7 @@ export default function Cards({ data }) {
                           '&:hover': {
                             opacity: 1,
                             cursor: 'pointer',
+                            transition: '0.3s ease-in',
                           },
                         }}
                       >
