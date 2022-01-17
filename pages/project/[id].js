@@ -13,7 +13,6 @@ export default function Project() {
   const { data: project, error } = useProject(projectId);
 
   // This is a project that should be rendered
-  console.log('project: ', project);
 
   return (
     <main

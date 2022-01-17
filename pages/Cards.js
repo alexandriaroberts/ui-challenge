@@ -9,7 +9,6 @@ export default function Cards({ data }) {
 
   // This is the list of projects to render on the page
   const projects = data?.projects || [];
-  console.log(projects);
   return (
     <div>
       <main sx={{ margin: '0 auto', maxWidth: '1440px' }}>
